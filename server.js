@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // ===== MONGODB CONNECTION =====
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://vickey4t_db_user:Jockey@5656@cluster0.x0dbzug.mongodb.net/', {
+mongoose.connect(process.env.MONGODB_URI  || 'mongodb+srv://vickey4t_db_user:Prashantgirge@5656@cluster0.xsfvlug.mongodb.net/?appName=Cluster0',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
