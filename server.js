@@ -9,7 +9,7 @@ const app = express();
 // ===== MIDDLEWARE =====
 app.use(helmet());
 app.use(cors({
-  origin: process.env.FRONTEND_URL || '*',
+  origin: process.env.FRONTEND_URL || 'https://student-managment-system-dbms-crud.vercel.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }));
 app.use(express.json());
